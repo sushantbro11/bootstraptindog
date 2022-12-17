@@ -1,0 +1,229 @@
+body{
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: center;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3.4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    
+}
+.price-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+.card-heading{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid{
+   padding: 3% 0%;
+}
+.container{
+    padding: 3% 15% 0% 15%;
+    
+
+}
+
+/* Navigation Bar */
+.navbar{
+   padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+   
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+   
+  
+    
+
+
+    position: relative;
+    top: 10%;
+    left:30%
+   
+}
+
+/* features section */
+
+#features{
+ 
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+.features-title{
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+.features-box{
+    padding: 5%;
+}
+
+
+.icon{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+
+    color: #ef8172;
+
+}
+
+/* Testomonials section */
+
+#testimonials
+{
+    
+   
+    background-color: #ef8172;
+    color: white;
+}
+
+.testo-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.testo-img{
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* press section */
+#press{
+
+    background-color: #ef8172;
+    /* using same bg color to make it look like press and testomonia are same section */
+    
+     
+
+}
+.press-img{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+.carousel-item{
+
+    padding: 7% 15%;
+
+}
+
+/* Pricing section */
+
+.price.text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-btn{
+    width: 100%;
+    
+}
+
+#pricing{
+    padding: 100px;
+    
+    
+}
+
+.pricing-card{
+    padding: 3% 5%;
+    
+} 
+
+/* cta section */
+#cta{
+    
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+    
+
+
+/* footer section */
+
+#footer{
+    padding: 7% 15% 0% 15%;
+    
+   
+
+}
+.foot-logo{
+   margin-top: 0%;
+   margin-bottom: 1%;
+   margin-left: 2%;
+   margin-right: 0%;
+   
+}
+
+@media (max-width: 1028px){
+#title{
+    text-align: center;
+}
+.title-image{
+
+    position: static;
+    transform: rotate(0);
+
+
+}
+
+}
